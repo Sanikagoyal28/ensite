@@ -68,7 +68,7 @@ function Navigationbar(props) {
             >
               Call for Paper
             </Link>
-            {/* <Link to='/keynote-speakers' className={props.active==='keynote'?'p-2 active activeLink d-flex align-items-center':'p-2 inactiveLink inactive d-flex align-items-center'}>Keynote Speakers</Link> */}
+
             <Link
               to="/registration"
               className={
@@ -78,6 +78,16 @@ function Navigationbar(props) {
               }
             >
               Registration
+            </Link>
+            <Link
+              to="/keynote-speakers"
+              className={
+                props.active === "keynote"
+                  ? "p-2 active activeLink d-flex align-items-center"
+                  : "p-2 inactiveLink inactive d-flex align-items-center"
+              }
+            >
+              Keynote Speakers
             </Link>
             <Link
               to="/accomodation"
