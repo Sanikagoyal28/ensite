@@ -58,7 +58,7 @@ class Home extends Component {
               <span className="bold-text">
                 Notification of Acceptance:{" "}
               </span>{" "}
-              15th November 2024{" "}
+              15th September 2024{" "}
               <br />
               <span className="bold-text">Final Paper Submission: </span>15th
               October 2024
