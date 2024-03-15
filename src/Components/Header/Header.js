@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo1.png";
-import IEEElogo from "../../assets/ieeeLogo.png";
+import IEEElogo from "../../assets/ieeeLogo.jpeg";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import Navbar from "./Navbar";
 import Popup from "../popup/Popup";

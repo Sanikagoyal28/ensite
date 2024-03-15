@@ -778,7 +778,7 @@ class Theme extends Component {
               <tr>
                 <td class="snowidth text-center">46</td>
                 <td class="nametd">Dr. Ankit Kumar Singh</td>
-                <td class="afftd">Assistant Professor, NIT Delhi</td>
+                <td class="afftd">Assistant Professor, NSUT Dwarka Delhi</td>
               </tr>
               <tr>
                 <td class="snowidth text-center">47</td>
