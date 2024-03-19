@@ -34,18 +34,29 @@ class Theme extends Component {
           <div>
             <p>
               Template for Paper Submission: &ensp;
-              <a
-                href="https://www.ieee.org/conferences/publishing/templates.html"
-                target="_blank"
-                rel="noreferrer"
-                download
-              >
-                Template
-              </a>
+              <p className="red-heading">
+                <a
+                  href="https://www.ieee.org/conferences/publishing/templates.html"
+                  target="_blank"
+                  rel="noreferrer"
+                  download
+                >
+                  Template
+                </a>
+              </p>
             </p>
             <p>
               To submit the paper click on the link: &ensp;
-              <p className="red-heading">will be updated soon</p>
+              <p className="red-heading">
+                {" "}
+                <a
+                  href="https://cmt3.research.microsoft.com/AKGEC2024"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Submission Link
+                </a>
+              </p>
             </p>
             <i>
               Prospective authors are invited to submit a maximum of 6 pages
