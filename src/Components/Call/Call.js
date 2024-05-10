@@ -7,15 +7,7 @@ class Theme extends Component {
         <div className="container">
           <h1 className="mb-3 green-heading">Call for Paper</h1>
           <p>
-            IEEE AKGEC 2024 extends an invitation to researchers, practitioners,
-            and students from across the globe to submit original papers that
-            have not been previously published for potential presentation at the
-            conference. All submitted papers will undergo peer review via the
-            provided Paper Submission Link. The submission guidelines include a
-            maximum limit of six pages, inclusive of figures and references.
-            Furthermore, all submissions will undergo a plagiarism check and
-            papers with similarity scores of 30% or higher may be subject to
-            rejection without further review.
+          IEEE AKGEC 2024 extends an invitation to academicians, researchers, practitioners, and students from across the globe to submit original papers that have not been previously published for potential presentation at the conference. All submitted papers will undergo peer review via the provided Paper Submission Link. The submission guidelines include a maximum limit of six pages, inclusive of figures and references. All submissions will undergo a plagiarism check and papers with similarity scores of 15% or higher may be subject to rejection without further review. All the accepted and presented papers will be submitted to IEEE Xplore subject to the fulfilment of the IEEE standards.
           </p>
 
           {/* <p>The focus area and tracks of the conference would be:</p>

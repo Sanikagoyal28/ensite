@@ -92,29 +92,28 @@ class Theme extends Component {
           </Table>
           <br />
 
-          {/* <Table borderless className="mb-5 borderbtm">
-                        <tbody>
-                            <tr>
-                                <th className="noborder">Organizing Chair</th>
-                            </tr>
-                            <tr>
-                                <td className="tdborder"> Dr. Pallab Biswas<br />
-                                    Professor & Head (ME), AKGEC
-                                    <br /><br />
-                                    Dr. Anu Chaudhary<br />
-                                    Professor & Head (IT), AKGEC</td>
-                                <td className="tdborder">Dr. Neelesh Kumar Gupta<br />
-                                    Professor & Head (ECE), AKGEC<br />
-                                    <br />
-                                    Prof. V.K. Parashar<br />
-                                    Professor (EN), AKGEC</td>
-                            </tr>
-                        </tbody>
-                    </Table> */}
+          <Table borderless className="mb-5 borderbtm">
+            <tbody>
+              <tr>
+                <th className="noborder">Conference Chair</th>
+              </tr>
+              <tr>
+                <td className="tdborder">
+                  {" "}
+                  Dr. Lokesh Varshney
+                  <br />
+                  HOD, EN
+                  <br />
+                  AKGEC, Ghaziabad
+                  <br />
+                </td>
+              </tr>
+            </tbody>
+          </Table>
 
           <Table>
             <thead>
-              <th className="noborder">Organizing Secretary </th>
+              <th className="noborder">Organizing Chair </th>
             </thead>
             <tbody className="tableNew">
               <tr>
