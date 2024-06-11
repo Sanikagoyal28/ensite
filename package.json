@@ -1,6 +1,6 @@
 {
   "name": "ensite",
-  "homepage": "https://akgec2023.org/",
+  "homepage": "https://Sanikagoyal28.github.io/ensite",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -23,6 +23,8 @@
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+"deploy" : "gh-pages -d build",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
