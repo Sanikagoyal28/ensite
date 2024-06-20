@@ -7,6 +7,7 @@ import Template from '../../assets/documents/Template.docx'
 import './Call.css'
 import Main from '../../Components/Call/Call'
 import Tracks from '../../Components/Theme/Theme'
+import SpecialSession from '../../Components/Call/Session'
 
 function Call() {
   return (
@@ -15,7 +16,7 @@ function Call() {
 
     <Main/>  
     <Tracks/>  
-    
+    <SpecialSession />
 
       <br /> <br/>
       <Footer />
