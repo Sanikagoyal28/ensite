@@ -154,6 +154,9 @@ p {
   width: 60% !important;
 }
 
+#partnerText{
+  font-size: 14px !important;
+}
 .navlinks-top:hover,
 navlinks-top:active {
   color: rgb(218, 218, 218) !important;

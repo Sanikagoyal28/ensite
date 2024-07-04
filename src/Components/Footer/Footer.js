@@ -13,7 +13,8 @@ class Theme extends Component {
         >
           <div className="d-flex flex-column align-items-center justify-content-center mt-5" id="partner">
             <img className="mt-5" src={partner} />
-            <p className="text-muted text mt-2">Media Partner</p>
+            <p className="text-muted text mt-2 mb-0">Media Partner</p>
+            <a href="https://conferencealerts.co.in/" id="partnerText" target="_blank">https://conferencealerts.co.in/</a>
           </div>
           <div className="d-flex flex-column align-items-center justify-content-center">
             {/* <Logo className="mt-5"/> */}
