@@ -30,7 +30,7 @@ export default function SpecialSession() {
             </tr>
           </tbody>
         </Table>
-        <br/>
+        <br />
 
         <h5 className="extra-bold-text">
           SS 2: Next-Generation Cyber Defence Mechanisms: AI and Machine
@@ -57,7 +57,7 @@ export default function SpecialSession() {
             </tr>
           </tbody>
         </Table>
-        <br/>
+        <br />
 
         <h5 className="extra-bold-text">
           SS 3: Cyber-Physical and Blockchain Technologies for Sustainable
@@ -75,10 +75,16 @@ export default function SpecialSession() {
                 Department of Electronics and Communications, Bharati
                 Vidyapeeth's College of Engineering (BVCOE), New Delhi
               </td>
+              <td>
+                Anwaya Bilas Sengupta
+                <br />
+                Alternate Chief Information Security Officer, Grid Controller of
+                India Limited, New Delhi
+              </td>
             </tr>
           </tbody>
         </Table>
-        <br/>
+        <br />
 
         <h5 className="extra-bold-text mt-8">
           SS 4: Electric Mobility: Vehicle-to-Grid, Grid-to-Vehicle, and
@@ -105,7 +111,7 @@ export default function SpecialSession() {
             </tr>
           </tbody>
         </Table>
-        <br/>
+        <br />
       </div>
     </div>
   );

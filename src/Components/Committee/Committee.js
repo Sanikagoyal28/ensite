@@ -116,7 +116,7 @@ class Theme extends Component {
               <th className="noborder">Organizing Chair </th>
             </thead>
             <tbody className="tableNew">
-              <tr>
+              <tr className="bo">
                 <td>
                   Dr. Vani Bhargava
                   <br />

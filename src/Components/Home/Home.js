@@ -54,7 +54,7 @@ class Home extends Component {
               <span className="bold-text">
                 Full Paper Submission Date:{" "}
               </span>{" "}
-              15th July 2024 <br />
+               <s>15th July 2024</s><span className="ms-2 text-info fw-bold">30th July 2024</span><br />
               <span className="bold-text">
                 Notification of Acceptance:{" "}
               </span>{" "}
