@@ -76,7 +76,7 @@ export default function SpecialSession() {
                 Vidyapeeth's College of Engineering (BVCOE), New Delhi
               </td>
               <td>
-                Anwaya Bilas Sengupta
+                Mr. Anwaya Bilas Sengupta
                 <br />
                 Alternate Chief Information Security Officer, Grid Controller of
                 India Limited, New Delhi
