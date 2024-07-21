@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import poster from "../../assets/desktop.png";
+import poster from "../../assets/desktop.jpg";
 import previous from "../../assets/previous.png";
-import posterMob from "../../assets/mobile.png";
+import posterMob from "../../assets/mobile.jpg";
 
 class Home extends Component {
   render() {
