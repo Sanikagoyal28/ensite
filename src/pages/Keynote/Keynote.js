@@ -22,38 +22,11 @@ const Keynote = () => {
        
         <div className="KN-grid">
           <div>
-            <h1>National Speakers</h1>
-            <div className="KN-container">
-              <img src={Vinod} className="" alt="keynote-img" />
-              <p className="KN-text">
-                <h3 >Vinod Khadkikar</h3>
-                <br />
-                <b>Topic</b> : Electric Vehicle to Vehicle Power Transfer <br />
-                <br />
-                <b>Biography</b> : Vinod Khadkikar is an IEEE Fellow and a
-                Professor in the Electrical Engineering Department at Khalifa
-                University, Abu Dhabi, UAE.
-                <br />
-                He received M. Tech. from IIT Delhi in 2002 and Ph.D. in
-                Electrical Engineering from the ETS, Montreal, Canada, in 2008.
-                From December 2008 to March 2010, he was a Postdoctoral Fellow
-                at the University of Western Ontario, London, Canada. From April
-                2010 to December 2010, he was a Visiting Professor at
-                Massachusetts Institute of Technology (MIT), Cambridge, USA.
-                <br /> Dr. Khadkikar is Co-Editor-in-Chief of the IEEE
-                Transactions on Industrial Electronics. He is a Distinguished
-                Lecturer of IEEE Industry Applications Society. His research
-                interests include applications of power electronics in
-                distribution systems and renewable energy resources, grid
-                interconnection issues, power quality enhancement, active power
-                filters and electric vehicles.
-              </p>
-            </div>
-
+            <h1>International Speakers</h1>
             <div className="KN-container">
               <img src={Akshay} className="" alt="keynote-img" />
               <p className="KN-text">
-                <h3>Prof. Akshay Kumar Rathore</h3>
+                <h3>Prof.(Dr.) Akshay Kumar Rathore</h3>
                 <br />
                 <b>Topic</b> : Multidisciplinary Engineering in Design and
                 Operation for Sustainable Energy Systems <br />
@@ -96,15 +69,43 @@ const Keynote = () => {
                 Distinguished Lecturer of the IEEE PELS society.
               </p>
             </div>
+            <div className="KN-container">
+              <img src={Vinod} className="" alt="keynote-img" />
+              <p className="KN-text">
+                <h3 >Prof.(Dr.) Vinod Khadkikar</h3>
+                <br />
+                <b>Topic</b> : Electric Vehicle to Vehicle Power Transfer <br />
+                <br />
+                <b>Biography</b> : Vinod Khadkikar is an IEEE Fellow and a
+                Professor in the Electrical Engineering Department at Khalifa
+                University, Abu Dhabi, UAE.
+                <br />
+                He received M. Tech. from IIT Delhi in 2002 and Ph.D. in
+                Electrical Engineering from the ETS, Montreal, Canada, in 2008.
+                From December 2008 to March 2010, he was a Postdoctoral Fellow
+                at the University of Western Ontario, London, Canada. From April
+                2010 to December 2010, he was a Visiting Professor at
+                Massachusetts Institute of Technology (MIT), Cambridge, USA.
+                <br /> Dr. Khadkikar is Co-Editor-in-Chief of the IEEE
+                Transactions on Industrial Electronics. He is a Distinguished
+                Lecturer of IEEE Industry Applications Society. His research
+                interests include applications of power electronics in
+                distribution systems and renewable energy resources, grid
+                interconnection issues, power quality enhancement, active power
+                filters and electric vehicles.
+              </p>
+            </div>
+
+           
           </div>
         </div>
         <div className="KN-grid">
           <div>
-            <h1>International Speakers</h1>
+            <h1>National Speakers</h1>
             <div className="KN-container">
               <img src={inter} className="" alt="keynote-img" />
               <p className="KN-text">
-                <h3>Dr Sri Niwas Singh</h3>
+                <h3>Prof.(Dr.) Sri Niwas Singh</h3>
                 <br/>
                 <b>
                  FIEEE (USA), FNAE, FIET (UK), IE(I), IETE(I), FAAIA,
