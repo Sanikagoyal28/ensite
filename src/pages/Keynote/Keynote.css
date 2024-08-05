@@ -11,24 +11,33 @@
 }
 
 .KN-container img {
-    width: 10rem;
-    height: 12rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 8px;
 }
 
 .KN-text {
-    width: 50%;
+    width: 100%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 963px) {
 
-    .KN-grid {
+    .KN-container {
         flex-direction: column;
         gap: 0;
     }
 
     .KN-container img {
-        width: 9rem;
-        height: 10rem;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 463px) {
+
+   
+
+    .KN-container img {
+        height: 15rem;
+        width: 15rem;
     }
 }

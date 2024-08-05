@@ -87,7 +87,7 @@ function Navigationbar(props) {
                   : "p-2 inactiveLink inactive d-flex align-items-center"
               }
             >
-              Keynote Speakers
+              Guests and Speakers
             </Link>
             <Link
               to="/accomodation"
