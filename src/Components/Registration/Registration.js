@@ -54,6 +54,10 @@ class Theme extends Component {
                 <td>INR 8000</td>
               </tr>
               <tr>
+                <td>Second Author/Non Author Participant </td>
+                <td>INR 2500</td>
+              </tr>
+              <tr>
                 <td>Non-IEEE Foreign Participants </td>
                 <td>$ 200</td>
               </tr>
