@@ -90,6 +90,16 @@ function Navigationbar(props) {
               Guests and Speakers
             </Link>
             <Link
+              to="/our-partners"
+              className={
+                props.active === "partner"
+                  ? "p-2 active activeLink d-flex align-items-center"
+                  : "p-2 inactiveLink inactive d-flex align-items-center"
+              }
+            >
+              Our Partners
+            </Link>
+            <Link
               to="/accomodation"
               className={
                 props.active === "accomodation"

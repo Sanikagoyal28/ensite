@@ -9,14 +9,15 @@ import Keynote from './pages/Keynote/Keynote';
 import Registration from './pages/Registration/Registration';
 import Committee from './pages/Committee/Committee'
 import Award from './pages/Award/Award';
+import Partner from './pages/Partners/Partners'
 
 class App extends Component {
 
-  componentDidMount(){
+  componentDidMount() {
     // const history = useHistory();
 
     let path = localStorage.getItem('path');
-    if(path) {
+    if (path) {
       localStorage.removeItem('path');
       console.log(this.props);
       this.props.history.push(path);
@@ -24,22 +25,23 @@ class App extends Component {
   }
 
   render() {
-  return (
-    <div className="App">
-    {/* <Router basename={window.location.pathname || ''}> */}
-    <Switch>
-    <Route path='/' exact component={Home} />
-    <Route path='/about' component={About} />
-    <Route path='/call-for-paper' component={Call} />
-    <Route path='/keynote-speakers' component={Keynote} />
-    <Route path="/registration" component={Registration} />
-    <Route path='/committee' component={Committee} />
-    <Route path='/accomodation' component={Award} />
-    </Switch>
-    {/* </Router> */}
-    </div>
-  );
-}
+    return (
+      <div className="App">
+        {/* <Router basename={window.location.pathname || ''}> */}
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/call-for-paper' component={Call} />
+          <Route path='/keynote-speakers' component={Keynote} />
+          <Route path="/registration" component={Registration} />
+          <Route path='/committee' component={Committee} />
+          <Route path='/our-partners' component={Partner} />
+          <Route path='/accomodation' component={Award} />
+        </Switch>
+        {/* </Router> */}
+      </div>
+    );
+  }
 }
 
 export default withRouter(App);
