@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Partner.css'; 
+import './Partner.css';
 
 import dsirLogo from '../../assets/our_partners/aerial-drone-panorama-view-chisinau-moldova-sunrise.jpg';
 import gridIndiaLogo from '../../assets/our_partners/GRID-INDIA-LOGO-FINAL.jpg';
