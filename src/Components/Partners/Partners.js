@@ -40,8 +40,8 @@ class Theme extends Component {
 
                 {/* Technical Partners Section */}
                 <div className="technical-partner-container">
-                    <h2 className="partner-section-title">Technical Partners</h2>
-                    
+                    <h2 className="partner-section-title">Technical Knowledge Partners</h2>
+
                     {/* Table for Grid India */}
                     <table className="partners-table">
                         <tbody>
@@ -61,22 +61,22 @@ class Theme extends Component {
                     </table>
 
                     <div className="teri-container">
-                    <h3 className="partner-section-title" >
-                        The Energy and Resources Institute (TERI)
-                    </h3>
-                    <table className="partners-table" style={{ marginTop: '10px' }}>
-                        <tbody>
-                            <tr>
-                                <td style={{ width: '250px', padding: '10px', textAlign: 'start' }}>
-                                    <img
-                                        src={teriLogo}
-                                        alt="TERI Logo"
-                                        style={{ width: '200px', height: 'auto', }}
-                                    />
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                        <h3 className="partner-section-title" >
+                            The Energy and Resources Institute (TERI)
+                        </h3>
+                        <table className="partners-table" style={{ marginTop: '10px' }}>
+                            <tbody>
+                                <tr>
+                                    <td style={{ width: '250px', padding: '10px', textAlign: 'start' }}>
+                                        <img
+                                            src={teriLogo}
+                                            alt="TERI Logo"
+                                            style={{ width: '200px', height: 'auto', }}
+                                        />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
