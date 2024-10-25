@@ -61,6 +61,9 @@ class Theme extends Component {
                     </table>
 
                     <div className="teri-container">
+                        <h3 className="partner-section-title" >
+                            The Energy and Resources Institute
+                        </h3>
                         <table className="partners-table" style={{ marginTop: '10px' }}>
                             <tbody>
                                 <tr>
