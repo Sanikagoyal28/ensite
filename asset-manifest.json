@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.156c297e.chunk.css",
-    "main.js": "/static/js/main.ae407fca.chunk.js",
-    "main.js.map": "/static/js/main.ae407fca.chunk.js.map",
+    "main.css": "/static/css/main.ff988a45.chunk.css",
+    "main.js": "/static/js/main.b2dd8e27.chunk.js",
+    "main.js.map": "/static/js/main.b2dd8e27.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eed979c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.eed979c9.js.map",
     "static/css/2.4297f0ba.chunk.css": "/static/css/2.4297f0ba.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.fa6dd32a.chunk.js.map": "/static/js/2.fa6dd32a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4297f0ba.chunk.css.map": "/static/css/2.4297f0ba.chunk.css.map",
-    "static/css/main.156c297e.chunk.css.map": "/static/css/main.156c297e.chunk.css.map",
+    "static/css/main.ff988a45.chunk.css.map": "/static/css/main.ff988a45.chunk.css.map",
     "static/js/2.fa6dd32a.chunk.js.LICENSE.txt": "/static/js/2.fa6dd32a.chunk.js.LICENSE.txt",
     "static/media/Akshay.13fc85bc.jpeg": "/static/media/Akshay.13fc85bc.jpeg",
+    "static/media/DSIR.7b7d13bb.png": "/static/media/DSIR.7b7d13bb.png",
     "static/media/GRID-INDIA-LOGO-FINAL.d13aa280.jpg": "/static/media/GRID-INDIA-LOGO-FINAL.d13aa280.jpg",
     "static/media/Guidelines.1b94c6ef.pdf": "/static/media/Guidelines.1b94c6ef.pdf",
     "static/media/Template.1c5e8d06.docx": "/static/media/Template.1c5e8d06.docx",
     "static/media/Vinod.e32c55d5.jpg": "/static/media/Vinod.e32c55d5.jpg",
-    "static/media/aerial-drone-panorama-view-chisinau-moldova-sunrise.3860a66f.jpg": "/static/media/aerial-drone-panorama-view-chisinau-moldova-sunrise.3860a66f.jpg",
     "static/media/desktop.7c53bb4f.jpg": "/static/media/desktop.7c53bb4f.jpg",
     "static/media/App.css": "/static/media/footer.a13d6232.svg",
     "static/media/image1.22a62ddd.png": "/static/media/image1.22a62ddd.png",
@@ -68,7 +68,7 @@
     "static/js/runtime-main.eed979c9.js",
     "static/css/2.4297f0ba.chunk.css",
     "static/js/2.fa6dd32a.chunk.js",
-    "static/css/main.156c297e.chunk.css",
-    "static/js/main.ae407fca.chunk.js"
+    "static/css/main.ff988a45.chunk.css",
+    "static/js/main.b2dd8e27.chunk.js"
   ]
 }
