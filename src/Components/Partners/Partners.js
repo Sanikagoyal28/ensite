@@ -13,8 +13,8 @@ class Theme extends Component {
                     Our Partners
                 </h1>
 
-                <h2 className="partner-section-title">Financial Partner</h2>
                 <div className="financial-partner-container">
+                <h2 className="partner-section-title">Financial Partner</h2>
                     <table className="partners-table">
                         <tbody>
                             <tr>
@@ -24,7 +24,7 @@ class Theme extends Component {
                                         style={{ backgroundImage: `url(${dsirLogo})`, width: '200px', height: '200px', backgroundSize: 'cover' }}
                                     />
                                 </td>
-                                <td style={{ fontSize: '24px', paddingLeft: '20px' }}>
+                                <td style={{ fontSize: '16px', paddingLeft: '20px' }}> {/* Reduced font size to 16px */}
                                     Department of Science and Industrial Research (DSIR)
                                 </td>
                             </tr>
@@ -32,8 +32,8 @@ class Theme extends Component {
                     </table>
                 </div>
 
-                <h2 className="partner-section-title">Technical Partners</h2>
                 <div className="technical-partner-container">
+                <h2 className="partner-section-title">Technical Partners</h2>
                     <table className="partners-table">
                         <tbody>
                             <tr>
@@ -44,7 +44,7 @@ class Theme extends Component {
                                         style={{ width: '200px', height: 'auto' }}
                                     />
                                 </td>
-                                <td style={{ fontSize: '24px', paddingLeft: '20px' }}>
+                                <td style={{ fontSize: '16px', paddingLeft: '20px' }}> {/* Reduced font size to 16px */}
                                     Grid India
                                 </td>
                             </tr>
@@ -56,12 +56,13 @@ class Theme extends Component {
                                         style={{ width: '200px', height: 'auto' }}
                                     />
                                 </td>
-                                <td style={{ fontSize: '24px', paddingLeft: '20px' }}>
+                                <td style={{ fontSize: '16px', paddingLeft: '20px' }}> {/* Reduced font size to 16px */}
                                     TERI (The Energy and Resources Institute)
                                 </td>
                             </tr>
                         </tbody>
                     </table>
+                    <div style={{height:10}}></div>
                 </div>
             </div>
         );
