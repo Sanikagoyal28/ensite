@@ -1,18 +1,14 @@
 import Header from "../../Components/Header/Header";
 import "./Keynote.css";
 import Footer from "../../Components/Footer/Footer";
-import img1 from "../../assets/keynote/img1.png";
-import img2 from "../../assets/keynote/img2.png";
-import img3 from "../../assets/keynote/img3.jpg";
-import img4 from "../../assets/keynote/img4.jpg";
-import img5 from "../../assets/keynote/img5.jpg";
-import img6 from "../../assets/keynote/img6.jpg";
-import img8 from "../../assets/keynote/img8.jpg";
-import img9 from "../../assets/keynote/img9.jpg";
-import img10 from "../../assets/keynote/img10.jpg";
-import Vinod from "../../assets/Vinod.jpg";
+
 import Akshay from "../../assets/Akshay.jpeg";
+import Mohan from "../../assets/Mohan.jpg";
 import inter from "../../assets/inter.png";
+import Dinesh from "../../assets/Dinesh.jpg";
+import Reji from "../../assets/Reji.png";
+import Rihan from "../../assets/Rihan.jpg";
+import Satish from "../../assets/Satish.png";
 
 const Keynote = () => {
   return (
@@ -70,31 +66,64 @@ const Keynote = () => {
               </p>
             </div>
             <div className="KN-container">
-              <img src={Vinod} className="" alt="keynote-img" />
+              <img src={Mohan} className="" alt="keynote-img" />
               <p className="KN-text">
-                <h3 >Prof.(Dr.) Vinod Khadkikar</h3>
+                <h3 >Prof. (Dr.) Mohan Kolhe </h3>
                 <br />
-                <b>Topic</b> : Electric Vehicle to Vehicle Power Transfer <br />
+                <b>Topic</b>: Integrated Renewable Energy System based on Energy Storage as Electrolytic Hydrogen <br />
                 <br />
-                <b>Biography</b> : Vinod Khadkikar is an IEEE Fellow and a
-                Professor in the Electrical Engineering Department at Khalifa
-                University, Abu Dhabi, UAE.
+                <b>Biography</b> : Prof. Dr. Mohan Lal Kolhe is a full professor in smart grid and renewable energy at the Faculty of Engineering and Science of the University of Agder (Norway).
                 <br />
-                He received M. Tech. from IIT Delhi in 2002 and Ph.D. in
-                Electrical Engineering from the ETS, Montreal, Canada, in 2008.
-                From December 2008 to March 2010, he was a Postdoctoral Fellow
-                at the University of Western Ontario, London, Canada. From April
-                2010 to December 2010, he was a Visiting Professor at
-                Massachusetts Institute of Technology (MIT), Cambridge, USA.
-                <br /> Dr. Khadkikar is Co-Editor-in-Chief of the IEEE
-                Transactions on Industrial Electronics. He is a Distinguished
-                Lecturer of IEEE Industry Applications Society. His research
-                interests include applications of power electronics in
-                distribution systems and renewable energy resources, grid
-                interconnection issues, power quality enhancement, active power
-                filters and electric vehicles.
+                He is a leading renewable energy technologist with three decades of academic experience at the international level and previously held academic positions at the world's prestigious universities, e.g., University College London (UK / Australia), University of Dundee (UK); University of Jyvaskyla (Finland); Hydrogen Research Institute, QC (Canada); etc. In addition, he was a member of the Government of South Australia’s first Renewable Energy Board (2009-2011) and worked on developing renewable energy policies.
+                <br /> Professor Kolhe is an expert evaluator of many prestigious international research councils (e.g., European Commission: Erasmus+ Higher Education – International Capacity Building, Royal Society London (UK), Engineering and Physical Sciences Research Council (EPSRC UK), Cyprus Research Foundation, etc.). In addition, many international organizations have invited him to deliver keynote addresses, expert lectures, workshops, etc. He has also been a member of many academic promotional committees.
+                <br/>Professor Kolhe has been successful in obtaining competitive research funding from prestigious research bodies (such as the Norwegian Research Council, EU, EPSRC, BBSRC, NRP, etc.) for his work on sustainable energy systems. His work on energy systems and electrical & electronic engineering has been recognised in the top 2% of scientists worldwide consistently from 2020 to 2023, according to Stanford University matrices based on Elsevier data. His top 10 publications have received an average of more than 200 citations each, making him an acknowledged pioneer in his profession on a global scale.
               </p>
             </div>
+            <div className="KN-container">
+              <img src={Dinesh} className="" alt="keynote-img" />
+              <p className="KN-text">
+                <h3 >Shri. Dinesh Dayanand Jagdale </h3>
+                <br />
+                {/* <b>Topic</b>: Integrated Renewable Energy System based on Energy Storage as Electrolytic Hydrogen <br />
+                <br /> */}
+                <b>Biography</b> : Shri. Dinesh Jagdale is a Former Joint Secretary at the Ministry of New and Renewable Energy, Government of India. He was appointed as Joint Secretary to the Government of India, Ministry of New & Renewable Energy, in September 2019 under the Government of India’s Lateral Entry Policy & completed his tenure in Sept 2024. Shri. Jagdale is a Graduate in Electronics Engineering and Master’s in Business Administration with specialization in Marketing and has over Thirty Three years of rich experience in electrical and renewable energy industry. An innovative thinker, Self-motivated, visionary professional has spent 22 years of his career working in Renewable Industry in various capacities. Prior to joining the Ministry of New & Renewable Energy Shri. Jagdale spent his initial 10 years of his Career as a Renewable Energy professional in the Wind & Solar Industry wherein he contributed to the Growth of these Sectors across multiple states in India. He has been known for thorough knowledge on the processes related to Regulatory, Permitting and Licensing across all the renewable states. During his tenure in the private sector Shri. Jagdale established and led the growth of a Renewable IPP to grow the Wind & Solar Energy Sector in India. He has been actively involved as consulting personnel in formulation of state government policies for Wind & Solar Energy generation, striking a balance between developers of the project and sustainability of the transmission and distribution companies. During his Renewable Energy Career, he has bagged prestigious Awards & Recognition from various forums across Wind & Solar Industry. During his tenure as Joint Secretary to the Government of India, Ministry of New & Renewable Energy, he has worked on several policy matters for the development of Renewable energy in pursuit of achieving the ambitious target of 500 Gigawatt of total energy installed capacity by the year 2030 from non-fossil based energy sources.
+
+              </p>
+            </div>
+            <div className="KN-container">
+              <img src={Reji} className="" alt="keynote-img" />
+              <p className="KN-text">
+                <h3 >Shri Reji Kumar Pillai </h3>
+                <br />
+                {/* <b>Topic</b>: Integrated Renewable Energy System based on Energy Storage as Electrolytic Hydrogen <br />
+                <br /> */}
+                <b>Biography</b> : Reji Kumar Pillai is the President at India Smart Grid Forum (ISGF).
+Reji is a renowned expert in the power sector with 29 years of international experience in the electricity industry in diverse functions across the entire value chain. He has been a key member of many multidisciplinary teams that were engaged in reform and restructuring of power
+and water utilities in Asia, Middle East, and Africa. He possesses advanced qualifications in Engineering, Finance, Management and Law
+In his most recent role as head of Energy & Utilities vertical in IBM India/South Asia, Reji spearheaded promotion of Smart Grids in India.
+Prior to joining IBM he has worked in NTPC and was a Senror Consultant with ADB, USAID and World Bank.
+A recognized thought leader in Smart Grid and Clean technologies, Reji is a popular key-note speaker at international symposiums and conferences on Smart Grids and Cleantech. He has also contributed to several articles and books.
+In 2011 Reji setup Magnetar Venture to promote innovation in Cleantech domain for sustainable development. Reji was the General Partner at Magnetar Venture.
+He is also an active member of Indian Angel Network.
+
+              </p>
+            </div>
+            <div className="KN-container">
+              <img src={Rihan} className="" alt="keynote-img" />
+              <p className="KN-text">
+                <h3 >Dr Mohd. Rihan </h3>
+                <br />
+                {/* <b>Topic</b>: Integrated Renewable Energy System based on Energy Storage as Electrolytic Hydrogen <br />
+                <br /> */}
+                <b>Biography</b> :Dr. Mohammad Rihan, a professor in the Electrical Engineering Department at Aligarh Muslim University (AMU), is currently serving as the Director General of the National Institute of Solar Energy (NISE), an autonomous body under the Government of India’s Ministry of New and Renewable Energy (MNRE). Appointed in early 2024, Dr. Rihan’s selection was endorsed by a committee of subject matter experts and senior IAS officers and later approved by the Appointments Committee of the Cabinet. He is on deputation at NISE for an initial period of three years, with a potential two-year extension.
+Dr. Rihan brings extensive expertise in smart grids and solar energy to his role at NISE, where he will lead efforts in research and development, testing, certification, and skill development in solar technologies. At AMU, Dr. Rihan spearheaded the integration of a 6.5 MWp solar PV plant into the university’s distribution grid, one of the largest such installations in an Indian academic institution. He also led a groundbreaking Rs. 20 crore project for a 3.3 MWp solar farm, setting a national benchmark for renewable energy integration in academia.
+As the founding director of AMU’s Center for Grid Integrated Green and Renewable Energy, Dr. Rihan has been instrumental in addressing research challenges related to high renewable energy penetration. Under his leadership, the center launched a Joint M.Tech. program on Green Energy and Sustainable Development in collaboration with NISE, supporting national priorities in green energy transition and aligning with the National Education Policy.
+Throughout his academic career, Dr. Rihan has mentored numerous Ph.D. scholars in areas such as smart grids, solar energy, and synchrophasor measurement, with several of his students receiving the prestigious Prime Minister’s Research Fellowship. Additionally, he has provided expert consultancy for both government and private sector initiatives focused on energy efficiency, conservation, and the modernization of electrical infrastructure.
+Dr. Rihan’s role at NISE positions him to significantly advance solar energy research, development, and policy, contributing to India’s renewable energy objectives and sustainable development goals.
+
+              </p>
+            </div>
+
 
            
           </div>
@@ -103,67 +132,17 @@ const Keynote = () => {
           <div>
             <h1>National Speakers</h1>
             <div className="KN-container">
-              <img src={inter} className="" alt="keynote-img" />
+              <img src={Satish} className="" alt="keynote-img" />
               <p className="KN-text">
                 <h3>Prof.(Dr.) Sri Niwas Singh</h3>
                 <br/>
-                <b>
-                 FIEEE (USA), FNAE, FIET (UK), IE(I), IETE(I), FAAIA,
-                  FAIIA, FAvH
-                </b>
-                <br/>
-                <br />
-                <b>Biography</b> : <b>Prof S. N. Singh</b> obtained his M. Tech.
-                and Ph. D. in Electrical Engineering from Indian Institute of
-                Technology Kanpur, in 1989 and 1995. Presently, Prof Singh is
-                <b> Director</b>, Atal Bihari Bajpayee- Indian Institute of
-                Information Technology and Management Gwalior (MP), India (on
-                leave from Professor (HAG), Department of Electrical
-                Engineering, Indian Institute of Technology Kanpur, India).
-                Before joining IIT Kanpur as Associate Professor, Dr Singh
-                worked with UP State Electricity Board as Assistant Engineer
-                from 1988 to 1996, with Roorkee University (now IIT Roorkee) as
-                Assistant Professor from 1996 to 2000 and with Asian Institute
-                of Technology, Bangkok, Thailand as Assistant Professor from
-                2001 to 2002. He was <b>Vice- Chancellor</b> of Madan Mohan
-                Malviya University of Technology Gorakhpur during April 2017 to
-                July 2020.
-                <br/> Dr Singh received several awards including Young Engineer
-                Award 2000 of Indian National Academy of Engineering (INAE),
-                Khosla Research Award of IIT Roorkee, and Young Engineer Award
-                of CBIP New Delhi (India), 1996. Prof Singh is receipt of
-                Humboldt Fellowship of Germany (2005, 2007) and Otto- monsted
-                Fellowship of Denmark (2009-10). Prof Singh became first Asian
-                to receive 2013 IEEE Educational Activity Board Meritorious
-                Achievement Award in Continuing Education. He is also recipients
-                of{" "}
-                <b>
-                  INAE Outstanding Teacher Award 2016 and IEEE R10 region
-                  (Asia-Pacific) Outstanding Volunteer Award 2016.
-                </b>{" "}
-                Dr Singh is appointed as IEEE Distinguish Lecturer of Power &
-                Energy Society from 2019 and Industry application Society for
-                2019-2021. He is also recipient of <b>NPSC 2020 Academic Excellence
-                Award and 2021 IEEE Industry Application Society (IAS)
-                Outstanding Educator/ Mentor Award.</b>
-                <br />
-                His research interests include power system restructuring,
-                FACTS, power system optimization & control, security analysis,
-                wind power, etc. Prof Singh has published more than 550 papers
-                (h-index=60, Citation=14k+) in International/ national
-                journals/conferences and supervised 42 PhD (9 PhD under
-                progress). He has also written 33 book chapters, 13 Edited books
-                and 2 text-books one on Electric Power Generation, Transmission
-                and Distribution and second is Basic Electrical Engineering,
-                published by PHI, India. Prof Singh has completed three dozen of
-                technical projects in India and abroad. His two NPTEL (YouTube)
-                video lectures on HVDC Transmission and Power System Operation &
-                Control are very popular. <b />
-                Prof Singh was Chairman, IEEE UP Section for 2013 & 2014, IEEE
-                R10 (Asia-Pacific) Conference & Technical Seminar Coordinator
-                2015-18 and R10 Vice-Chair, Technical Activities (2019-2020). Dr
-                Singh is Fellows of IEEE (USA), IET (UK), INAE, IE(I), AAIA,
-                AIIA, IETE, AvH.
+               
+                <b>Biography</b> : 
+                Dr. Satish Kumar Singh is an Associate Professor in the Department of Information Technology at the Indian Institute of Information Technology (IIIT) Allahabad, India, where he has served since 2013. Prior to joining IIIT Allahabad, he worked in the Department of Electronics and Communication Engineering at Jaypee University of Engineering and Technology, Guna, India, from 2005 to 2012. With over 16 years of professional experience, Dr. Singh’s areas of expertise encompass Image Processing, Computer Vision, Biometrics, Deep Learning, and Pattern Recognition. Since 2015, he has headed the Computer Vision and Biometrics Lab (CVBL) at IIIT Allahabad, where his research group engages in the R&D of Signal and Image Processing, Vision, and Biometrics algorithms and systems.
+Dr. Singh has supervised six Ph.D. and 34 Master's students, and he is currently guiding nine Ph.D. and six Master's students within CVBL. He holds a Ph.D. in Computer Science and Engineering from Jaypee University of Information Technology, Waknaghat, HP, India (2006–2010), an M.Tech in Laser Science and Applications from Devi Ahilya University, MP, India (2003–2005), and a B.Tech in Electronics Engineering from Dr. R.M.L. Avadh University, Faizabad, UP, India.
+Professionally, Dr. Singh is affiliated with several esteemed societies. He is a Fellow of the Institute of Engineers, India (2020), a Fellow of the Institution of Electronics and Telecommunication Engineers, India (2006), and a Senior Member of both the IEEE (2009) and the International Association of Computer Science and Information Technology, USA (2010). He is also a member of the International Association of Pattern Recognition (IAPR, 2020).
+Dr. Singh has undertaken various administrative roles. He serves as Vice-Chair for the IEEE India Council (2020) and IEEE Uttar Pradesh Section (2020), and he is Secretary of the IEEE SPS Chapter in the Uttar Pradesh Section (2020–present). His contributions extend to national bodies, where he serves as a member of the Recruitment and Assessment Committee of DRDO, Ministry of Defence, and an expert for the All India Council for Technical Education’s Approval Committee (2020–present). At IIIT Allahabad, he is the convener of the DRDO-Academia Collaboration Committee, Correspondence In-Charge for the ISRO-IIITA MoU (2019–present), and Convener of DPGC (IT). He also oversees SPARC, Rankings, and Accreditation activities and has served in various IEEE roles including Secretary and Treasurer of the IEEE Uttar Pradesh Section.
+               
               </p>
             </div>
           </div>
