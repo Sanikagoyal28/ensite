@@ -71,7 +71,8 @@ const Keynote = () => {
               </p>
             </div>
             <div className="KN-container">
-              <img src={Mohan} className="" alt="keynote-img" />
+            <img src={Mohan} className="mohan" alt="keynote-img" />
+
               <p className="KN-text">
                 <h3 >Prof. (Dr.) Mohan Kolhe </h3>
                 <br />
