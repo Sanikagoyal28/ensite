@@ -13,7 +13,6 @@ class Theme extends Component {
                     Our Partners
                 </h1>
 
-                {/* Financial Partner Section */}
                 <div className="financial-partner-container">
                     <h2 className="partner-section-title">Financial Partner</h2>
                     <table className="partners-table">
@@ -38,11 +37,9 @@ class Theme extends Component {
                     </table>
                 </div>
 
-                {/* Technical Partners Section */}
                 <div className="technical-partner-container">
                     <h2 className="partner-section-title">Technical Knowledge Partners</h2>
 
-                    {/* Table for Grid India */}
                     <table className="partners-table">
                         <tbody>
                             <tr>
@@ -57,27 +54,20 @@ class Theme extends Component {
                                     Grid India
                                 </td>
                             </tr>
+                            <tr>
+                                <td style={{ width: '250px', padding: '10px' }}>
+                                    <img
+                                        src={teriLogo}
+                                        alt="Grid India Logo"
+                                        style={{ width: '200px', height: 'auto' }}
+                                    />
+                                </td>
+                                <td style={{ fontSize: '16px', paddingLeft: '20px' }}>
+                                    The Energy and Resources Institute (TERI)
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
-
-                    <div className="teri-container">
-                        <h3 className="partner-section-title" >
-                            The Energy and Resources Institute
-                        </h3>
-                        <table className="partners-table" style={{ marginTop: '10px' }}>
-                            <tbody>
-                                <tr>
-                                    <td style={{ width: '250px', padding: '10px', textAlign: 'start' }}>
-                                        <img
-                                            src={teriLogo}
-                                            alt="TERI Logo"
-                                            style={{ width: '200px', height: 'auto', }}
-                                        />
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
                 </div>
             </div>
         );

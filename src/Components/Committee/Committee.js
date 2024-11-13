@@ -1363,6 +1363,12 @@ class Theme extends Component {
                   Assistant Professor EN, AKGEC Ghaziabad
                 </td>
               </tr>
+              <tr>
+                <td className="tdborder">Dr. Nitisha Shrivastava</td>
+                <td className="tdborder">
+                  Assistant Professor EN, AKGEC Ghaziabad
+                </td>
+              </tr>
             </tbody>
           </Table>
         </div>

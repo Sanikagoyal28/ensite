@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import poster from "../../assets/desktop.jpg";
 import previous from "../../assets/previous.png";
 import posterMob from "../../assets/mobile.jpg";
+import template2024 from "../../assets/files/AKGEC_2024_Template.pptx";
 
 class Home extends Component {
   render() {
@@ -70,21 +71,25 @@ class Home extends Component {
 
         <div class="bg-success p-3 d-flex align-items-center" style={{ minheight: 150 }}>
           <div class="container">
-            <div class="row row-cols-1 row-cols-md-5 g-2 align-items-center">
+            <div class="row row-cols-1 row-cols-md-6 g-2 align-items-center">
               <div class="col d-flex justify-content-center">
-                <button type="button" class="btn btn-light w-100">Conference Schedule</button>
+                <a href="https://drive.google.com/file/d/1RDyjE_lPM4USfcNRIA1Afz7GuxrFQxv2/view?usp=drive_link" download class="btn btn-light w-100">Conference Schedule</a>
               </div>
               <div class="col d-flex justify-content-center">
-                <button type="button" class="btn btn-light w-100">Presentation Template</button>
+                <a href={template2024} download class="btn btn-light w-100">Presentation Template</a>
+              </div>
+
+              <div class="col d-flex justify-content-center">
+                <a href="https://drive.google.com/file/d/1tsGpfD9eAvpf-obSqKZU0WuFKjVd7iSj/view?usp=drive_link" target="_self" class="btn btn-light w-100">IEEE SIGHT Activity Registration</a>
               </div>
               <div class="col d-flex justify-content-center">
-                <button type="button" class="btn btn-light w-100">IEEE SIGHT Activity Registration</button>
+                <a href="https://drive.google.com/file/d/1tsGpfD9eAvpf-obSqKZU0WuFKjVd7iSj/view?usp=drive_link" target="_self" class="btn btn-light w-100">SIGHT Template</a>
               </div>
               <div class="col d-flex justify-content-center">
-                <button type="button" class="btn btn-light w-100">Tutorial Session Registration</button>
+                <a href="https://drive.google.com/file/d/1IR4-0w43GRDdhhxJ_E1xEEPF03fVIVwA/view?usp=drive_link" target="_self" class="btn btn-light w-100">Tutorial Session Registration</a>
               </div>
               <div class="col d-flex justify-content-center">
-                <button type="button" class="btn btn-light w-100">WIE Meet & Greet Registration</button>
+                <a href="https://drive.google.com/file/d/1w-yZnvm-jMVaFtM9AsGmlf0xjZZUQnWZ/view?usp=drive_link" target="_self" class="btn btn-light w-100">WIE Meet & Greet Registration</a>
               </div>
             </div>
           </div>
