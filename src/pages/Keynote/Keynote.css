@@ -8,12 +8,14 @@
     margin-top: 3rem;
     display: flex;
     gap: 1rem;
+    column-gap: 2remn;
 }
 
 .KN-container img {
     width: 25rem;
     height: 25rem;
     border-radius: 8px;
+
 }
 
 .KN-text {
@@ -32,9 +34,10 @@
         margin-bottom: 10px;
     }
 }
+
 @media only screen and (max-width: 463px) {
 
-   
+
 
     .KN-container img {
         height: 15rem;
