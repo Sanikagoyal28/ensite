@@ -1,4 +1,16 @@
 .logo {
-    max-width: 50%;
-    height: auto;
+    width: 7rem;
+    height: 7rem;
+}
+.MyLogo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
+  
+  .MyLogo img {
+    margin: 5px; 
+  }
+  
