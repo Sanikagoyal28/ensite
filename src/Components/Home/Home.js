@@ -54,7 +54,7 @@ class Home extends Component {
               <span className="bold-text">
                 Full Paper Submission Date:
               </span>
-               <span className="ms-2 text-danger fw-bold">20th September 2024</span><br />
+              <span className="ms-2 text-danger fw-bold">20th September 2024</span><br />
               <span className="bold-text">
                 Notification of Acceptance Starts:{" "}
               </span>
@@ -66,6 +66,32 @@ class Home extends Component {
             </p>
           </div>
         </div>
+
+
+        <div class="bg-success p-3 d-flex align-items-center" style={{ minheight: 150 }}>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-5 g-2 align-items-center">
+              <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-light w-100">Conference Schedule</button>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-light w-100">Presentation Template</button>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-light w-100">IEEE SIGHT Activity Registration</button>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-light w-100">Tutorial Session Registration</button>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-light w-100">WIE Meet & Greet Registration</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
 
         {/* <div className="judgesImg">
           <img src={judges} alt="judges" />
