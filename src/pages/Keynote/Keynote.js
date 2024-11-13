@@ -24,7 +24,6 @@ const Keynote = () => {
 
         <div className="KN-grid">
           <div>
-            <h1>International Speakers</h1>
             <div className="KN-container">
               <img src={Akshay} className="" alt="keynote-img" />
               <p className="KN-text">
