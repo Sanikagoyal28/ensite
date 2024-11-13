@@ -83,7 +83,7 @@ class Home extends Component {
                 <a href="https://drive.google.com/file/d/1tsGpfD9eAvpf-obSqKZU0WuFKjVd7iSj/view?usp=drive_link" target="_self" class="btn btn-light w-100">IEEE SIGHT Activity Registration</a>
               </div>
               <div class="col d-flex justify-content-center">
-                <a href="https://drive.google.com/file/d/1tsGpfD9eAvpf-obSqKZU0WuFKjVd7iSj/view?usp=drive_link" target="_self" class="btn btn-light w-100">SIGHT Template</a>
+                <a href="https://drive.google.com/file/d/16vU5i_-8u1zpz7aU8KdKYytxO37nMl17/view?usp=drive_link" target="_self" class="btn btn-light w-100">SIGHT Template</a>
               </div>
               <div class="col d-flex justify-content-center">
                 <a href="https://drive.google.com/file/d/1IR4-0w43GRDdhhxJ_E1xEEPF03fVIVwA/view?usp=drive_link" target="_self" class="btn btn-light w-100">Tutorial Session Registration</a>
