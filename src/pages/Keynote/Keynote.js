@@ -140,7 +140,7 @@ const Keynote = () => {
             <div className="KN-container">
               <img src={Satish} className="" alt="keynote-img" />
               <p className="KN-text">
-                <h3>Prof.(Dr.) Sri Niwas Singh</h3>
+                <h3>Dr. Satish Kumar Singh</h3>
                 <br />
 
                 <b>Biography</b> :
