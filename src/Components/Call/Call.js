@@ -7,17 +7,7 @@ class Theme extends Component {
         <div className="container">
           <h1 className="mb-3 green-heading">Call for Paper</h1>
           <p>
-            IEEE AKGEC 2024 extends an invitation to academicians, researchers,
-            practitioners, and students from across the globe to submit original
-            papers that have not been previously published for potential
-            presentation at the conference. All submitted papers will undergo
-            peer review via the provided Paper Submission Link. The submission
-            guidelines include a maximum limit of six pages, inclusive of
-            figures and references. All submissions will undergo a plagiarism
-            check and papers with similarity scores of 15% or higher may be
-            subject to rejection without further review. All the accepted and
-            presented papers will be submitted to IEEE Xplore subject to the
-            fulfilment of the IEEE standards.
+          IEEE AGECCT-2K26 extends an invitation to academicians, researchers, practitioners, and students from across the globe to submit original papers that have not been previously published for potential presentation at the conference. The authors are invited to submit the research papers in IEEE Format. The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings.
           </p>
 
           {/* <p>The focus area and tracks of the conference would be:</p>
@@ -38,7 +28,8 @@ class Theme extends Component {
               Template for Paper Submission: &ensp;
               <p className="red-heading">
                 <a
-                  href="https://www.ieee.org/conferences/publishing/templates.html"
+                  // href="https://www.ieee.org/conferences/publishing/templates.html"
+                  href="https://docs.google.com/document/d/1Y4QL8BeyxtXYoMrk7PNL8YuJE3vaoakq/edit"
                   target="_blank"
                   rel="noreferrer"
                   download
@@ -47,7 +38,7 @@ class Theme extends Component {
                 </a>
               </p>
             </p>
-            <p>
+            {/* <p>
               To submit the paper click on the link: &ensp;
               <p className="red-heading">
                 {" "}
@@ -59,10 +50,11 @@ class Theme extends Component {
                   Submission Link
                 </a>
               </p>
-            </p>
+            </p> */}
             <i>
-              Prospective authors are invited to submit a maximum of 6 pages
-              full paper on the following tracks (but not limited to):
+              {/* Prospective authors are invited to submit a maximum of 6 pages
+              full paper on the following tracks (but not limited to): */}
+              The contributing papers are invited to the following broad categories of: 
             </i>
             {/* <p>
               Guidelines for authors{" "}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import poster from "../../assets/desktop.jpg";
+import poster from "../../assets/desktop1.jpg";
 import previous from "../../assets/previous.png";
-import posterMob from "../../assets/mobile.jpg";
+import posterMob from "../../assets/mobile1.jpg";
 import template2024 from "../../assets/files/AKGEC_2024_Template.pptx";
 
 class Home extends Component {
@@ -34,13 +34,8 @@ class Home extends Component {
               Date and Venue of the Conference
             </h1>
             <p>
-              The conference AKGEC2024 hosted by Department of Electrical and
-              Electronics Engineering, will be held offline at AKGEC, Ghaziabad,
-              Uttar Pradesh, India from November 21-23, 2024. The conference
-              will include regular sessions with poster/oral presentations,
-              global and technical sessions, panel discussions and poster
-              presentations organized in AKGEC. The conference is Technically
-              Sponsored by IEEE UP Section.{" "}
+            The conference AGECCT2K26 hosted by Department of Electronics and Communication Engineering, will be held offline at AKGEC, Ghaziabad, Uttar Pradesh, India from February 13-14, 2026. The conference will include regular sessions with poster/oral presentations, global and technical sessions, panel discussions and poster presentations organized in AKGEC. The conference is Technically Sponsored by IEEE UP Section.
+            {" "}
             </p>
           </div>
         </div>
@@ -49,20 +44,22 @@ class Home extends Component {
           <div className="container mb-3">
             <h1 className="mb-3 green-heading">Important Dates</h1>
             <p>
-              <span className="bold-text">Paper Submission Starts: </span> 20th
-              March 2024
+              <span className="bold-text">Last date of abstract submission:  </span> August 18, 2025
               <br />
               <span className="bold-text">
-                Full Paper Submission Date:
+                Full Paper Submission:
               </span>
-              <span className="ms-2 text-danger fw-bold">20th September 2024</span><br />
+              <span className="ms-2 text-danger fw-bold">September 20, 2025</span><br />
               <span className="bold-text">
-                Notification of Acceptance Starts:{" "}
+                Notification of Acceptance :{" "}
               </span>
-              <span className="text-danger fw-bold"> 25th September 2024{" "}</span>
+              <span className="text-danger fw-bold"> December 16, 2025
+              {" "}</span>
               <br />
-              <span className="bold-text">Final Paper Submission: </span>15th
-              October 2024
+              <span className="bold-text">Registration and final paper submission of accepted Paper: </span>January 10, 2026
+              <br />
+              <span className="bold-text">Conference Date: </span>February 13-14, 2026
+
               <br />
             </p>
           </div>
@@ -175,16 +172,10 @@ class Home extends Component {
           <div className="container mb-5">
             <h1 className="mb-3 green-heading">Conference Theme</h1>
             <p>
-              The international conference on Advancements & Key Challenges in
-              Green Energy and Computing (AKGEC-2024) will offer themes in the
-              engineering aspects of renewable energy and computing. The main
-              aim of this conference will be to provide an international premier
-              forum for the presentation of new advances and research results in
-              the field of Green Energy, Computing and security, sustainable
-              development, Artificial intelligence and Embedded Systems. The
-              focus area and tracks of the conference would be:
+            An International Conference on Advancement in Green energy, Communication and Computing Techniques (AGECCT-2K26) is scheduled to be held from February 13-14, 2026, at Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh, India. (AGECCT-2K26) seeks to provide an open communication platform to discuss and exchange futuristic trends and high-quality research in the field of Engineering among researchers, academicians, industrial professionals, and students and bring together people from all different geographical areas who share a common discipline or field. The primary goal of the conference is to promote research and development activities needed for the next generation and focus on all promising areas in Engineering for Advancement in Green energy, Communication and Computing Technologies . Several renowned experts in this field will share their knowledge and experience with the participants.
+
             </p>
-            <p>
+            {/* <p>
               <span className="bold-text">Track 1:</span> Green Energy, Electric
               Drives and Smart Grid
               <br />
@@ -195,7 +186,7 @@ class Home extends Component {
               <br />
               <span className="bold-text">Track 4:</span> Artificial
               Intelligence and Embedded Systems
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

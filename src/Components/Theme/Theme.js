@@ -6,12 +6,71 @@ class Theme extends Component {
     return (
       <div id="theme" className="target">
         <div className="container">
-          <h1 className="mb-3 green-heading">Track Details</h1>
+          <h1 className="mb-3 green-heading">Category Details</h1>
 
-          <h5 className="extra-bold-text mt-4">
-            Track 1: Green Energy, Electric Drives and Smart Grid
+          <h5 className=" mt-4">
+            <span className="extra-bold-text">Category 1:</span>  Electronics & Communication Engineering for Sustainable Development
+
           </h5>
-          <p>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 2:</span> Renewable energy resources and Bioenergy resources
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 3:</span>  Solar energy and power systems
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 4:</span> Communication Systems and Networks
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 5:</span>  Embedded Systems and IoT
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 6:</span>  Signal and Image Processing
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 7:</span> Artificial Intelligence and Machine learning
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 8:</span> Advanced Computing Technologies
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 9:</span> Robotics, Automation and IoT applications
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 10:</span> Sustainable Energy Systems
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 11:</span> Optical Systems and Optical Networks
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 12:</span> Modern 5G and 6G Wireless Communication Systems & Applications
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 13:</span> Hybrid Systems & Technologies for Advanced Computing Technologies
+
+          </h5>
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 14:</span> VLSI Design and Electronic Circuits
+
+          </h5>
+
+          <h5 className=" mt-4">
+          <span className="extra-bold-text">Category 15:</span> RF and Microwave
+
+
+          </h5>
+          {/* <p>
             Renewable Energy Sources: Solar Energy: Solar PV performance, Solar
             cell materials and solar cell power plant, Islanded and hybrid modes
             and control, Plastic solar cells, Solar Thermal Energy: solar
@@ -32,7 +91,7 @@ class Theme extends Component {
           </p>
 
           <h5 className="extra-bold-text mt-4">
-            Track 2: Computing and Security
+            Category 2: Computing and Security
           </h5>
           <p>
             Cloud computing, Energy efficient cloud architectures, Storage and
@@ -54,7 +113,7 @@ class Theme extends Component {
           </p>
 
           <h5 className="extra-bold-text mt-4">
-            Track 3: Sustainable Technologies and Development
+            Category 3: Sustainable Technologies and Development
           </h5>
           <p>
              Science of the total environment for sustainability, Solid Waste
@@ -69,7 +128,7 @@ class Theme extends Component {
           </p>
 
           <h5 className="extra-bold-text mt-4">
-            Track 4: Artificial Intelligence and Embedded Systems{" "}
+            Category 4: Artificial Intelligence and Embedded Systems{" "}
           </h5>
           <p>
             Artificial Intelligence, Machine Learning, Deep Learning,
@@ -85,7 +144,7 @@ class Theme extends Component {
             Systems, Nano Electronics, FPGA Development, System on Chip,
             Embedded Applications, Embedded Memory Architecture, System
             Automation.
-          </p>
+          </p> */}
 
           {/* <h1 className="mt-5 mb-3 green-heading">Further Updates Soon...</h1> */}
           {/* <p>

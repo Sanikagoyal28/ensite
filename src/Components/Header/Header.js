@@ -20,11 +20,10 @@ function Header(props) {
             <img className="logo" src={IEEElogo} width="120px" alt="logo" />
           </div>
           <h5 className="ms-4 font-weight-bold name-heading text-center">
-            <b className="second">
+            {/* <b className="second">
               2<sup>nd</sup>{" "}
-            </b>
-            International Conference on Advancements and Key Challenges in Green
-            Energy and Computing
+            </b> */}
+             International Conference on Advancement in Green Energy, Communication and Computing Techniques 
           </h5>
           <div className="d-flex flex-column flex-md-row">
             <img className="logo" src={collegeLogo} width="80px" alt="logo" />
